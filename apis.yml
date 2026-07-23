@@ -1,8 +1,27 @@
 aid: baccaai
 name: Bacca.ai
-description: 'Bacca.ai is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Bacca.ai is an AI-driven Site Reliability Engineering (SRE) platform that
+  deploys an autonomous agent functioning as a Tier-1 on-call engineer. It ingests operational
+  context from Slack, Jira, documentation, logs, traces, and metrics to build a proprietary
+  Knowledge Graph of an organization''s systems, then contextualizes and deduplicates
+  alerts, identifies root causes with high accuracy, automates incident war rooms and
+  post-mortem generation, and surfaces reports on system failures and hotspots. Bacca
+  reports cutting Mean Time To Resolution (MTTR) by roughly 40-60%. Founded in 2023 and
+  headquartered in San Francisco, the company deploys on Google Cloud (cloud or on-prem)
+  with single-tenant data isolation and SOC 2 Type I & II attestation. Backed by Homebrew.'
 url: https://raw.githubusercontent.com/api-evangelist/baccaai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bacca.ai/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Site Reliability Engineering
+- Incident Management
+- Observability
+- DevOps
+- AI Agent
+- Root Cause Analysis
+- Cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.bacca.ai
+- type: About
+  url: https://www.bacca.ai/about-us
+- type: Blog
+  url: https://www.bacca.ai/blog
+- type: PrivacyPolicy
+  url: https://www.bacca.ai/legals/privacy-policy
+- type: TrustCenter
+  url: https://trust.bacca.ai/
+- type: Compliance
+  url: https://www.bacca.ai/legals/security-and-privacy-whitepaper
+- type: DomainSecurity
+  url: security/baccaai-domain-security.yml
+- type: LLMsTxt
+  url: llms/baccaai-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

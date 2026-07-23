@@ -1,0 +1,21 @@
+# Bacca.ai
+
+> Bacca.ai is an AI-driven Site Reliability Engineering (SRE) platform that deploys an autonomous agent acting as a Tier-1 on-call engineer. It ingests operational context from sources such as Slack, Jira, logs, traces, and metrics to build a proprietary Knowledge Graph of an organization's systems, then contextualizes alerts, identifies root causes, automates incident war rooms and post-mortems, and reports on system hotspots — cutting Mean Time To Resolution (MTTR) by roughly 40-60%. Founded in 2023, San Francisco. Backed by Homebrew.
+
+Note: Bacca.ai is a SaaS incident-response product. As of this writing it publishes no public developer API, OpenAPI specification, SDKs, or GitHub organization. This file is generated from the API Evangelist catalog profile, not from a provider-published /llms.txt.
+
+## Company
+- Website: https://www.bacca.ai
+- About: https://www.bacca.ai/about-us
+- Manifesto: https://www.bacca.ai/manifesto
+- Blog: https://www.bacca.ai/blog
+
+## Security & Trust
+- Trust Center: https://trust.bacca.ai/
+- Security & Privacy Whitepaper: https://www.bacca.ai/legals/security-and-privacy-whitepaper
+- Privacy Policy: https://www.bacca.ai/legals/privacy-policy
+- Compliance: SOC 2 Type I & Type II attested; GDPR; single-tenant on Google Cloud Platform
+
+## API Evangelist Artifacts
+- Domain security probe: security/baccaai-domain-security.yml
+- Trust center profile: security/baccaai-trust-center.yml

@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.bacca.ai/legals/security-and-privacy-whitepaper
+url: https://trust.bacca.ai/
+certifications:
+- SOC 2 Type I
+- SOC 2 Type II
+- GDPR
+frameworks:
+- name: SOC 2 Type I & Type II
+  status: attested
+  evidence: Bacca maintains a SOC 2 Type I & Type II attestation; report available via the Trust Center.
+- name: GDPR
+  status: compliant
+  evidence: GDPR referenced for data-retention policy; continuously evaluates emerging regulatory frameworks.
+controls:
+  tenancy: single-tenant; strict logical and physical separation of data per customer, no cross-customer data pollination
+  hosting: Google Cloud Platform (GCP)
+  encryption_at_rest: all customer datastores encrypted at rest; row-level encryption for sensitive data
+  encryption_in_transit: TLS 1.2 or higher; HSTS enabled
+  key_management: GCP KMS with keys stored in Hardware Security Modules (HSMs)
+  access: least-privilege, role-based access, automatic deprovisioning on termination, phishing-resistant MFA
+  testing: SAST, SCA, DAST vulnerability scanning; continuous external attack surface management
+  data_retention: 30-day retention window for raw incident data; anonymization for knowledge aggregation
+evidence:
+- source: https://www.bacca.ai/legals/security-and-privacy-whitepaper
+  keywords: [soc 2 type i, soc 2 type ii, gdpr, encryption at rest, gcp kms]
+- source: https://trust.bacca.ai/
+  kind: trust-center
+notes: Trust Center portal is JavaScript-rendered (trust.bacca.ai); certifications confirmed from the public Security & Privacy Whitepaper.
