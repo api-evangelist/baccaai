@@ -10,6 +10,17 @@ description: 'Bacca.ai is an AI-driven Site Reliability Engineering (SRE) platfo
   headquartered in San Francisco, the company deploys on Google Cloud (cloud or on-prem)
   with single-tenant data isolation and SOC 2 Type I & II attestation. Backed by Homebrew.'
 url: https://raw.githubusercontent.com/api-evangelist/baccaai/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
